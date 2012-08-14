@@ -1,0 +1,20 @@
+{"promotions":[
+	{	"card_id":"268",
+		"promotionText":"Hi, On your third visit to the Salon, we will reward you with 15% OFF as a ‘Thank you’",
+		"redeemText":"You have a 15% Discount on this visit!",
+		"position":"3",
+		"image":"https://dl.dropbox.com/u/3334787/photo.JPG",
+		"expirationDate":"20120815190000",
+		"firstStampReward":"yes",
+		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
+		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
+		"firstStampRewardImage":"https://dl.dropbox.com/u/3334787/photo.JPG"
+	},
+	{	"card_id":"274",
+		"firstStampReward":"yes",
+		"firstStampRewardTxt":"Free pastry or toast with your coffee on sign-up.",
+		"firstStampRedeemTxt":"You just won a free croissant. Show me to the merchant.",
+		"firstStampRewardImage":"https://dl.dropbox.com/u/3334787/photo.JPG"
+	}
+
+]}
