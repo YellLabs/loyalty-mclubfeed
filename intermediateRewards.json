@@ -11,10 +11,12 @@
 		"firstStampRewardImage":"https://github.com/hibu-loyalty/mclubfeed/raw/master/photo.JPG"
 	},
 	{	"card_id":"274",
+		"image":"https://github.com/hibu-loyalty/mclubfeed/raw/master/nincomsoup.png",
 		"firstStampReward":"yes",
 		"firstStampRewardTxt":"Free pastry or toast with your coffee on sign-up.",
 		"firstStampRedeemTxt":"You just won a free croissant. Show me to the merchant.",
-		"firstStampRewardImage":"https://dl.dropbox.com/u/3334787/photo.JPG"
+		"firstStampRewardImage":""
+
 	}
 
 ]}
