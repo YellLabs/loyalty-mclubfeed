@@ -11,6 +11,7 @@
 		"firstStampRewardImage":"https://github.com/hibu-loyalty/mclubfeed/raw/master/photo.JPG"
 	},
 	{	"card_id":"274",
+		"position":"100",
 		"image":"https://github.com/hibu-loyalty/mclubfeed/raw/master/nincomsoup.png",
 		"firstStampReward":"yes",
 		"firstStampRewardTxt":"Free pastry or toast with your coffee on sign-up.",
