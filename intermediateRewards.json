@@ -2,7 +2,7 @@
 	{	"card_id":"268",
 		"promotionText":"Hi, On your third visit to the Salon, we will reward you with 15% OFF as a ‘Thank you’",
 		"redeemText":"You have a 15% Discount on this visit!",
-		"position":"2",
+		"position":"3",
 		"image":"https://github.com/hibu-loyalty/mclubfeed/raw/master/photo.JPG",
 		"expirationDate":"72",
 		"firstStampReward":"yes",
