@@ -8,7 +8,7 @@
 		"firstStampReward":"yes",
 		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
 		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
-		"firstStampRewardImage":"https://github.com/hibu-loyalty/mclubfeed/raw/master/photo.JPG"
+		"firstStampRewardImage":""
 	},
 	{	"card_id":"274",
 		"position":"100",
@@ -19,5 +19,4 @@
 		"firstStampRewardImage":""
 
 	}
-
 ]}
