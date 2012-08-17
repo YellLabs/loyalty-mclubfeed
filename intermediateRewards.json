@@ -24,7 +24,7 @@
 		"redeemText":"intermediate promotion redeem text here",
 		"position":"2",
 		"image":"https://raw.github.com/hibu-loyalty/mclubfeed/master/clb.png",
-		"expirationDate":"now",
+		"expirationDate":"240",
 		"firstStampReward":"yes",
 		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
 		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
