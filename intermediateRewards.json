@@ -4,8 +4,8 @@
 		"redeemText":"You have a 15% Discount on this visit!",
 		"position":"3",
 		"image":"https://github.com/hibu-loyalty/mclubfeed/raw/master/photo.JPG",
-		"expirationDate":"72",
-		"firstStampReward":"now",
+		"expirationDate":"now",
+		"firstStampReward":"yes",
 		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
 		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
 		"firstStampRewardImage":"https://github.com/hibu-loyalty/mclubfeed/raw/master/photo.JPG"
