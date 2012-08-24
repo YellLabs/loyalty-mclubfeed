@@ -8,7 +8,18 @@
 		"firstStampReward":"yes",
 		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
 		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
-		"firstStampRewardImage":"https://github.com/hibu-loyalty/mclubfeed/raw/master/photo.JPG"
+		"firstStampRewardImage":""
+	},
+	{	"card_id":"273",
+		"promotionText":"Keu Banh Mi Deli promotion text",
+		"redeemText":"Keu Banh Mi Deli redeem text",
+		"position":"6",
+		"image":"https://dl.dropbox.com/u/47601236/keu-baguette1.jpeg",
+		"expirationDate":"now",
+		"firstStampReward":"yes",
+		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
+		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
+		"firstStampRewardImage":""
 	},
 	{	"card_id":"274",
 		"position":"100",
