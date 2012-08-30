@@ -40,6 +40,16 @@
 		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
 		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
 		"firstStampRewardImage":""
+	},
+	{	"card_id":"226",
+		"promotionText":"2 for 1 when you bring a friend tomorrow between 3-5",
+		"redeemText":"intermediate promotion redeem text here",
+		"position":"1",
+		"image":"http://img31.imageshack.us/img31/9388/ofoodphotosoverview15.jpg",
+		"expirationDate":"24",
+		"firstStampReward":"no",
+		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
+		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
+		"firstStampRewardImage":""
 	}
-
 ]}
