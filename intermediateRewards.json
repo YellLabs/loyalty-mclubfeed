@@ -5,7 +5,7 @@
 		"position":"3",
 		"image":"https://github.com/hibu-loyalty/mclubfeed/raw/master/photo.JPG",
 		"expirationDate":"72",
-		"firstStampReward":"yes",
+		"firstStampReward":"no",
 		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
 		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
 		"firstStampRewardImage":""
