@@ -21,17 +21,6 @@
 		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
 		"firstStampRewardImage":""
 	},
-	{	"card_id":"282",
-		"promotionText":"FREE Desert",
-		"redeemText":"FREE Desert on this visit!",
-		"position":"2",
-		"image":"",
-		"expirationDate":"48",
-		"firstStampReward":"no",
-		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
-		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
-		"firstStampRewardImage":""
-	},
 	{	"card_id":"281",
 		"promotionText":"2 for 1 on sandwiches when you bring a friend tomorrow between 3-5",
 		"redeemText":"You have a free sandwich for a friend!",
