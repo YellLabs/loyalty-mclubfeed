@@ -21,6 +21,17 @@
 		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
 		"firstStampRewardImage":""
 	},
+	{	"card_id":"284",
+		"promotionText":"2x1 on your next meal (food only)",
+		"redeemText":"2x1 on this meal (food only)!",
+		"position":"1",
+		"image":"",
+		"expirationDate":"168",
+		"firstStampReward":"no",
+		"firstStampRewardTxt":"Text for first stamp promotion mode here.",
+		"firstStampRedeemTxt":"Text for first stamp promotion redeem.",
+		"firstStampRewardImage":""
+	},
 	{	"card_id":"281",
 		"promotionText":"2 for 1 on sandwiches when you bring a friend tomorrow between 3-5",
 		"redeemText":"You have a free sandwich for a friend!",
