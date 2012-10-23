@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>mClub - Backend </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Styles -->
+   	  <link rel="stylesheet" type="text/css" href="css/custom.min.css" >
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">-->    <link href="css/plugins/datepicker.css" rel="stylesheet">
+  </head>
+     <body>
+        <header>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-point icon-point-blue"></span>
+            <span class="icon-point icon-point-pink"></span>
+            <span class="icon-point icon-point-green"></span>
+          </a>
+          <a class="brand" href="index.php"><img class="logo" src="img/hibu_VIP.png" alt="hibu VIP" /></a>
+       
+          <div id="second-nav" class="pull-right">
+            <ul class="nav">
+              <li class="merchant">
+                  <div class="logoMerchant"><img src="img/logo-mclub-brand-small.png" alt="mClub" /></div>
+                  <div class="nameMerchant dropdown-toggle" data-toggle="dropdown"> Merchant name <b class="caret"></b></div>                      
+                    <ul class="dropdown-menu">
+                          <li><a href="settings.php.htm">Settings</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#"><i class="icon-off"></i> Sign Out</a></li>
+                    </ul>
+              </li>
+              <div class="vertical-separator"></div>
+              <li><a href="#">Upgrade</a></li>
+              <li><a href="settings.php.htm">Settings</a></li>   
+              <li><a href="#" id="notifications" rel="popover" data-original-title="A Title"  data-content="And here's some amazing content. It's very engaging. right?">Notifications <span class="badge badge-pink">3</span></a></li>
+              <li><a href="#">Help</a></li>           
+            </ul>
+          </div><!--/.nav-collapse -->
+          <div id="main-nav" class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="dashboard.php.htm">Dashboard</a></li>
+              <li><a href="loyalty.php.htm">Loyalty scheme settings</a></li>
+              <li><a href="feedback.php.htm">Customer Feedback</a></li>
+              <li><a href="#">Promote yourself</a></li>
+              <li><a href="#">Know more</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+</header>
+
+        
+        <div class="container-fluid legalTerms">
+              <div class="row-fluid">
+                <div class="span12">
+                    <h1>Terms and conditions</h1>                           
+                </div><!--/span-->
+              </div><!--/row--> 
+			  
+              <div class="row-fluid">
+                <div class="span12">
+					<h2 class="txtBlue">Condiciones del servicio</h2>  
+					<p>Por "nosotros" se entenderá Yell Limited y los términos "nos" y "nuestro" se
+					interpretarán en consecuencia. Estamos inscritos en Inglaterra y Gales con el número de
+					registro 4205228 y nuestro domicilio social se encuentra en One Reading Central,
+					Forbury Road, Reading, Berkshire, Inglaterra, RG1 3YL.</p>
+					<p>Por "usted" se entenderá el usuario del servicio mClub de Yell (en adelante, el
+					"Servicio") y el término "su" se interpretará en consecuencia.</p>
+					<p>Las presente condiciones (en adelante, "Condiciones") establecen la base sobre la que
+					usted podrá utilizar el Servicio. Al utilizar el Servicio, usted acepta estas Condiciones,
+					fijadas entre usted y nosotros, y conviene en quedar obligado por las mismas. Si no las
+					acepta, por favor, absténgase de utilizar nuestro Servicio.</p>
+					
+					<h3>Acceso al Servicio</h3>
+					<p>Usted reconoce y conviene en que nosotros prestamos el Servicio "tal cual" y "según
+					disponibilidad", sin aseveraciones ni garantías de ningún tipo (ya sean explícitas o
+					implícitas) en la medida permitida por ley, incluyendo las garantías implícitas de
+					calidad satisfactoria, adecuación para un fin específico, no infracción, compatibilidad,
+					seguridad y precisión. Todo material descargado u obtenido de otro modo a través del
+					uso del Servicio, usted lo utiliza según su libre arbitrio y a su propio riesgo. </p>
+					<p>Usted reconoce y acepta que, oportunamente, el Servicio podrá verse afectado
+					negativamente por sucesos fuera de nuestro control. El Servicio está sujeto a las
+					limitaciones de la tecnología habilitante en la que se basa y podrá verse afectado
+					negativamente por el rendimiento de la red y otros factores operativos, incluyendo, sin
+					limitación, congestión, cobertura de red, conexiones caídas, el rendimiento de su
+					dispositivo móvil y el mantenimiento de las conexiones de red seguras. No seremos
+					responsables por errores, retrasos o fallos en relación con la transmisión del Servicio.
+					Nuestro objetivo es actualizar el Servicio regularmente y podremos cambiar el material
+					incluido en el mismo en cualquier momento. En caso de necesidad, podremos suspender
+					el acceso al Servicio o suspenderlo indefinidamente.</p>
+					
+					<h3>Material de terceros</h3>
+					<p>El uso del Servicio será a su propio riesgo y, de manera específica, no estamos
+					aprobando ni estamos asociados con ninguna persona particular, empresa o material que
+					pueda aparecer en el Servicio.</p>
+					<p>Las ofertas o promociones que se muestran a través del Servicio las hace la empresa o
+					entidad que hace dicha oferta, y no Yell. Si usted acepta dicha oferta, lo hace con el
+					proveedor tercero y no seremos parte de dicho acuerdo.</p>
+					
+					<h3>Uso</h3>
+					<p>Somos propietarios y licenciatarios de una gran cantidad de derechos de propiedad
+					intelectual utilizados en y en relación con el Servicio, incluyendo: las marcas
+					comerciales y logotipos de YELL, YELL LABS, mCLUB de YELL; y otros contenidos,
+					diseños, textos y gráficos puestos a disposición a través del Servicio, aparte de los que
+					utilizamos bajo licencia.</p>
+					<p>El Servicio le permite buscar empresas cerca de usted que tengan ofertas de promoción.</p>
+					<p>Se le permite utilizar el Servicio para este fin, siempre que no utilice el Servicio: (1)
+					para ningún fin ilícito; (2) para dañar, amenazar, cometer abusos contra o acosar a otra
+					persona, o de un modo que invada la privacidad de alguien o que sea (en nuestra
+					opinión razonable) ofensiva, inaceptable o que suponga un daño para Yell o para otras
+					empresas de Yell Group plc; (3) para crear, comprobar, confirmar, actualizar o
+					modificar sus propias bases de datos o registros o los de otra persona; (4) para
+					manipular, actualizar o cambiar cualquier parte del Servicio de un modo que afecte a su
+					funcionamiento; (5) de un modo que imponga una carga no razonable o
+					desproporcionadamente grande a las comunicaciones de Yell y /o sus sistemas técnicos
+					según determinemos nosotros; o que utilice cualquier medio automático para controlar o
+					copiar los contenidos, o para interferir o tratar de interferir con el funcionamiento del
+					servicio.</p>
+					
+					<h3>Uso del Mapeo</h3>
+					<p>Las ubicaciones de mapas se basan en códigos postales o cualquier combinación de una
+					dirección proporcionada a Yell por las personas o negocios a cuyos datos se accede al
+					utilizar el Servicio. La ubicación por código postal proporciona únicamente una
+					ubicación general con una precisión limitada y puede no corresponderse con una
+					dirección visitable real respecto de dicha persona o negocio. Yell recomienda que los
+					usuarios comprueben la precisión de la ubicación con la persona o empresa en cuestión.</p>
+					<p>Las indicaciones y rutas se proporcionan dentro de las limitaciones de precisión de la
+					tecnología utilizada para prestar dichas indicaciones y rutas. Las indicaciones y rutas se
+					proporcionan "tal cual" y Yell no puede garantizar que esta tecnología vaya a
+					proporcionar la sugerencia más precisa, rápida, corta o más cómoda para una consulta
+					concreta. AL UTILIZAR EL SERVICIO, USTED CONVIENE EN QUE NI YELL NI
+					NINGUNO DE SUS EMPLEADOS, AGENTES, O PROVEEDORES DE SERVICIOS
+					SERÁN RESPONSABLES ANTE USTED O CUALQUIER TERCERO POR
+					CUALQUIER MULTA, MULTA DE TRÁFICO, DAÑOS Y PERJUICIOS U OTRAS
+					PÉRDIDAS O RECLAMACIONES RESULTANTES DE O EN RELACIÓN CON EL
+					USO, POR SU PARTE, DE DICHOS DATOS DE MAPEO E INDICACIONES.</p>
+					
+					<h3>Limitación de Responsabilidad</h3>
+					<p>Usted reconoce y acepta que ni Yell ni ningún otro miembro de nuestro grupo de
+					empresas, accionistas, agentes, personal u otras organizaciones relacionadas con
+					nosotros serán, en ninguna circunstancia (salvo en la medida permitida por ley),
+					responsables por las siguientes pérdidas o daños:</p>
+					<ul>
+						<li>pérdida de datos;</li>
+						<li> pérdida de ingresos, ganancias o beneficios esperados;</li>
+						<li>pérdida de actividad mercantil o contratos;</li>
+						<li>pérdida de oportunidades;</li>
+						<li>pérdida de fondo de comercio o daños a la reputación;</li>
+						<li>pérdidas sufridas por terceros;	</li>
+						<li>desperdicio de tiempo de gestión o de oficina; o daños indirectos, consecuentes, especiales o ejemplares resultantes del uso, no
+					uso, defectos o retrasos en el Servicio.</li>
+					</ul>
+					<p>La responsabilidad total de Yell hacia usted por cualesquiera reclamaciones que
+					surgieren, pese a todo, ya estuvieren causadas por perjuicios (incluyendo negligencia),
+					incumplimiento de contrato o de otro modo, estará limitada a dos mil libras esterlinas
+					(2.000 £). Sin perjuicio de lo dispuesto en el presente contrato, no limitamos ni
+					excluimos nuestra responsabilidad por fallecimiento o daños personales resultantes de
+					negligencia por nuestra parte, ni nuestra responsabilidad por manifestación dolosa.</p>
+					<p>Usted reconoce y acepta que el Proveedor de la Tienda (definido seguidamente) no es
+					responsable de (1) tratar reclamaciones resultantes del Servicio, o (2) la investigación,
+					defensa, liquidación o exoneración de reclamaciones de terceros acerca de que el
+					Servicio, o su posesión y uso del Servicio, infrinja derechos de propiedad intelectual de
+					dicho tercero.</p>
+					
+					<h3>Cargos</h3>
+					<p>ACTUALMENTE, YELL NO COBRA POR EL USO DEL SERVICIO. NO
+					OBSTANTE, SU OPERADOR DE RED PODRÁ COBRARLE POR EL USO DE
+					SUS SISTEMAS, O LA RED DE TELEFONÍA PARA ACCEDER AL SERVICIO.</p>
+					<p>Si Yell introdujera cargos de Servicio, mostrará los datos de dichos cargos en la iPhone
+					App Store o en la Google Android Store, en función de qué Proveedor de Tienda utilice.
+					Rescisión</p>
+					<p>Usted conviene en que Yell, a su libre arbitrio, podrá, sin necesidad de preaviso,
+					rescindir el uso del Servicio por su parte por cualquier motivo, incluyendo, sin
+					limitación, si creemos que usted ha incumplido o actuado de manera incoherente con el
+					contenido o espíritu de las Condiciones. La rescisión será sin perjuicio de cualesquiera
+					otros derechos o recursos de Yell. Usted conviene en que Yell no será responsable ante
+					usted, ni ningún tercero, por la rescisión del acceso de usted al Servicio.<p>
+					Variación</p>
+					<p>Nos reservamos el derecho a cambiar las presentes Condiciones en cualquier momento,
+					a nuestro libre arbitrio, y sin notificación previa. Si usted continúa utilizando el Servicio,
+					se considerará que ha aceptado las Condiciones modificadas.</p>
+					
+					<h3>Cómo ponerse en contacto con nosotros</h3>
+					<p>Si tiene cualquier pregunta, queja o comentario sobre el Servicio, sírvase ponerse en
+					contacto con nosotros en <a href="mailto:mobile@yell.com">mobile@yell.com</a>.</p>
+					
+					<h3>Derechos de terceros</h3>
+					<p>El proveedor de la tienda de la que descargue el Servicio (el "Proveedor de la Tienda")
+					no es parte de estas Condiciones y no será responsable por el Servicio y su contenido, o
+					la prestación de cualesquiera servicios de mantenimiento y soporte para el Servicio.</p>
+					<p>Usted reconoce y conviene en que el Proveedor de la Tienda y las filiales del Proveedor
+					de la Tienda son beneficiarios terceros de estas Condiciones. Asimismo, usted conviene
+					en que, en el momento de aceptar las Condiciones, el Proveedor de la Tienda tendrá
+					derecho (y se considerará que ha aceptado el derecho) a obligar al cumplimiento de las
+					Condiciones en su contra como beneficiario tercero de dichas Condiciones.</p>
+					
+					<h3>Datos personales</h3>
+					<p>Cualquier dato personal que usted nos proporcione será tratado de conformidad con
+					nuestra Política de Privacidad. Mediante el uso del Servicio, usted da su consentimiento
+					a dicho tratamiento.</p>
+					
+					<h3>Derecho aplicable y jurisdicción</h3>
+					<p>Las presentes Condiciones y cualquier reclamación en virtud de las mismas (ya sean
+					contractuales o extracontractuales) se regirán por el Derecho inglés y estarán sujetas a la
+					jurisdicción exclusiva de los tribunales y juzgados de Inglaterra y Gales.</p>
+
+                </div><!--/span-->
+              </div><!--/row-->
+            
+                 
+                   <hr>
+  <footer>
+    <img class="logo_footer" src="img/hibu_VIP.png" alt="hibu VIP" />
+    <p class="copyright">© 2012 hibu All rights reserved</p>
+  </footer>
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+                </div>
+                
+                
+                <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+                <script type="text/javascript">
+				    $('#dp3').datepicker()
+				</script>
+				
+                
+    </body>
+</html>

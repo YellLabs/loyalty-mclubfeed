@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>mClub - Backend </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Styles -->
+   	  <link rel="stylesheet" type="text/css" href="css/custom.min.css" >
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">-->    <link href="css/plugins/datepicker.css" rel="stylesheet">
+  </head>
+     <body>
+        <header>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-point icon-point-blue"></span>
+            <span class="icon-point icon-point-pink"></span>
+            <span class="icon-point icon-point-green"></span>
+          </a>
+          <a class="brand" href="index.php"><img class="logo" src="img/hibu_VIP.png" alt="hibu VIP" /></a>
+       
+          <div id="second-nav" class="pull-right">
+            <ul class="nav">
+              <li class="merchant">
+                  <div class="logoMerchant"><img src="img/logo-mclub-brand-small.png" alt="mClub" /></div>
+                  <div class="nameMerchant dropdown-toggle" data-toggle="dropdown"> Merchant name <b class="caret"></b></div>                      
+                    <ul class="dropdown-menu">
+                          <li><a href="settings.php.htm">Settings</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#"><i class="icon-off"></i> Sign Out</a></li>
+                    </ul>
+              </li>
+              <div class="vertical-separator"></div>
+              <li><a href="#">Upgrade</a></li>
+              <li><a href="settings.php.htm">Settings</a></li>   
+              <li><a href="#" id="notifications" rel="popover" data-original-title="A Title"  data-content="And here's some amazing content. It's very engaging. right?">Notifications <span class="badge badge-pink">3</span></a></li>
+              <li><a href="#">Help</a></li>           
+            </ul>
+          </div><!--/.nav-collapse -->
+          <div id="main-nav" class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="dashboard.php.htm">Dashboard</a></li>
+              <li><a href="loyalty.php.htm">Loyalty scheme settings</a></li>
+              <li><a href="feedback.php.htm">Customer Feedback</a></li>
+              <li><a href="#">Promote yourself</a></li>
+              <li><a href="#">Know more</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+</header>
+
+        
+        <div class="container-fluid legalTerms">
+              <div class="row-fluid">
+                <div class="span12">
+                    <h1>FAQ</h1>                           
+                </div><!--/span-->
+              </div><!--/row--> 
+			  
+              <div class="row-fluid">
+                <div class="span12">
+					<h2 class="txtBlue">Category 1</h2> 
+					<div class="faq">
+						<h5 class="question">¿En que lugares puedo conseguir ofertas hibu VIP?</h5>
+						<div class="answer">Accede al apartado Cerca de mi para observar los comercios más próximos donde encontrarás promociones de hibu VIP</div>
+						<h5 class="question">¿Cómo canjear los premios?</h5>
+						<div class="answer">Escanea el código que te ofrece el comerciante.</div>                             
+					</div>
+					<h2 class="txtBlue">Category 2</h2> 
+					<div class="faq">
+						<h5 class="question">¿En que lugares puedo conseguir ofertas hibu VIP?</h5>
+						<div class="answer">Accede al apartado Cerca de mi para observar los comercios más próximos donde encontrarás promociones de hibu VIP</div>
+						<h5 class="question">¿Cómo canjear los premios?</h5>
+						<div class="answer">Escanea el código que te ofrece el comerciante.</div>                             
+					</div>
+                </div><!--/span-->
+              </div><!--/row--> 
+            
+                 
+                   <hr>
+  <footer>
+    <img class="logo_footer" src="img/hibu_VIP.png" alt="hibu VIP" />
+    <p class="copyright">© 2012 hibu All rights reserved</p>
+  </footer>
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+                </div>
+                
+                
+                <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+                <script type="text/javascript">
+				    $('#dp3').datepicker()
+				</script>
+				
+				
+				<script> <!-- toggle FAQ -->
+					$(".question").click(function () {
+						$(this).toggleClass('active');
+						$(this).next().toggle('slow');
+						$( ".question" ).accordion({ icons: { "header": "ui-icon-plus", "headerSelected": "ui-icon-minus" } });
+					});		
+				</script>
+                
+    </body>
+</html>
