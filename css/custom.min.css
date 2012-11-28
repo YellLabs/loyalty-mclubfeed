@@ -1137,7 +1137,7 @@ table input[type=text],table select{margin-bottom:0;}
 .question{cursor:pointer;}
 .question:hover{color:#418fde;}
 .question.active{}
-/*.answer{display:none;}*/
+/*.answer{display:block;}*/
 .logo_footer{height:50px;}
 .copyright{color:#555E58;float:right;margin:10px 10px 10px 50px;text-align:right;}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
