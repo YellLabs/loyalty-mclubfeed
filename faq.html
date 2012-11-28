@@ -38,12 +38,12 @@
               <div class="row-fluid">
                 <div class="span12">
 					<div class="faq">
-						<h2 class="_question" onClick="mostrar('question1')">¿Qué es hibu VIP?</h2>
-						<div id="question1" class="_answer">hibu VIP es una app que te permite encontrar promociones en comercios cerca de ti, acumular puntos en los mismos y canjearlos por premios.</div>
+						<h2 class="question">¿Qué es hibu VIP?</h2>
+						<div class="answer">hibu VIP es una app que te permite encontrar promociones en comercios cerca de ti, acumular puntos en los mismos y canjearlos por premios.</div>
 					</div>
 					<div class="faq">
-						<h2 class="_question"  onClick="mostrar('question2')">¿Dónde puedo usar hibu VIP?</h2>
-						<div id="question2" class="_answer">Puedes usar hibu VIP en todos los establecimientos que aparecen en la pestaña "Cerca de mí" de tu app. Trabajamos duro para aumentar la lista de comercios donde poder usar hibu VIP, así que permanece al tanto de nuestras actualizaciones.</div>
+						<h2 class="question">¿Dónde puedo usar hibu VIP?</h2>
+						<div class="answer">Puedes usar hibu VIP en todos los establecimientos que aparecen en la pestaña "Cerca de mí" de tu app. Trabajamos duro para aumentar la lista de comercios donde poder usar hibu VIP, así que permanece al tanto de nuestras actualizaciones.</div>
 					</div>
 					<div class="faq">
 						<h2 class="question">¿Cómo empiezo a usar hibu VIP?</h2>
@@ -100,10 +100,6 @@
 						$(this).next().toggle('slow');
 						//$( ".question" ).accordion({ icons: { "header": "ui-icon-plus", "headerSelected": "ui-icon-minus" } });
 					});
-					function mostrar(answer) {
-						if (window.document.getElementById(answer).style.display=='none') window.document.getElementById(answer).style.display='block'
-						else window.document.getElementById(answer).style.display='none';
-					}
 				</script>
                 
     </body>
