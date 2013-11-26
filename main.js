@@ -39,9 +39,9 @@ $(window).load(function(){
         console.log("You're either offline or something has gone horribly wrong.");
     }
 
-    //window.addEventListener("load", loaded, false);
-    //webappCache.addEventListener("updateready", updateCache, false);
-    //webappCache.addEventListener("error", errorCache, false);
+    window.addEventListener("load", loaded, false);
+    webappCache.addEventListener("updateready", updateCache, false);
+    webappCache.addEventListener("error", errorCache, false);
 
     function Field (id, formId, value, title, disabled){
         this.id = id;
