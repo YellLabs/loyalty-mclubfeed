@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "ROI Calc",
+  "version": "0.0.1",
+  "description": "ROI Calculator",
+  "offline_enabled": true,
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  }
+}

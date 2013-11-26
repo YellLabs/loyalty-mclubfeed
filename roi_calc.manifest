@@ -1,0 +1,19 @@
+CACHE MANIFEST
+
+CACHE:
+# Offline cache v2
+# html files
+index.html
+
+# css files
+bootstrap.min.css
+
+# js files
+jquery-2.0.3.min.js
+
+# images
+hibu-big.png
+NectarLocal-login.png
+
+# fonts
+# assets/vomzom.svg
