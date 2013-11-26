@@ -10,6 +10,7 @@ bootstrap.min.css
 
 # js files
 jquery-2.0.3.min.js
+jquery-2.0.3.min.map
 
 # images
 hibu-big.png
