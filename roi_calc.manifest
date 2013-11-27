@@ -1,20 +1,30 @@
 CACHE MANIFEST
+# 2013-11-27:v3
 
 CACHE:
-# Offline cache v2
 # html files
 index.html
 
 # css files
-bootstrap.min.css
+stylesheets/bootstrap.min.css
+stylesheets/main.css
 
 # js files
-jquery-2.0.3.min.js
-main.js
+javascripts/jquery-2.0.3.min.js
+javascripts/bootstrap.min.js
+javascripts/sprintf.min.js
+javascripts/main.js
 
 # images
-hibu-big.png
-NectarLocal-login.png
+images/hibu-big.png
+images/NectarLocal-login.png
 
 # fonts
-# assets/vomzom.svg
+fonts/hibucoheadline_bd-webfont.eot
+fonts/hibucoheadline_bd-webfont.svg
+fonts/hibucoheadline_bd-webfont.ttf
+fonts/hibucoheadline_bd-webfont.woff
+fonts/hibucotext_rg-webfont.eot
+fonts/hibucotext_rg-webfont.svg
+fonts/hibucotext_rg-webfont.ttf
+fonts/hibucotext_rg-webfont.woff
