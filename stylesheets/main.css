@@ -1,0 +1,171 @@
+/*
+ * @blue:           #418FDE;
+ * @green:          #48A23F;
+ * @pink:           #CE0058;
+ * @blue-hibu:      #418FDE;
+ * @green-hibu:     #48A23F;
+ * @pink-hibu:      #CE0058;
+*/
+
+
+@font-face {
+  font-family: 'Hibu Regular';
+  src: url('../fonts/hibucotext_rg-webfont.eot');
+  src: url('../fonts/hibucotext_rg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/hibucotext_rg-webfont.woff') format('woff'),
+       url('../fonts/hibucotext_rg-webfont.ttf') format('truetype'),
+       url('../fonts/hibucotext_rg-webfont.svg#hibu_co_textregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hibu Headline';
+  src: url('../fonts/hibucoheadline_bd-webfont.eot');
+  src: url('../fonts/hibucoheadline_bd-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/hibucoheadline_bd-webfont.woff') format('woff'),
+       url('../fonts/hibucoheadline_bd-webfont.ttf') format('truetype'),
+       url('../fonts/hibucoheadline_bd-webfont.svg#hibu_co_headlinebold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body  {
+	margin: 10px;
+	background: #e1e1e1;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e1e1e1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e1e1e1));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e1e1e1 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e1e1e1 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e1e1e1 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #e1e1e1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e1e1e1', GradientType=0);
+	padding: 10px;
+	font-family: "Hibu Regular"
+}
+
+.form-horizontal .control-label {
+	text-align: left;
+}
+
+footer {
+	border-top: 1px solid #ccc;
+	color: #a3a3a3;
+	font-size: 11px;
+	margin-top: 30px;
+	padding: 10px 20px;
+}
+
+.well {
+    border: 1px solid #eee;
+    border-radius: 0px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 10px 0px #ccc;
+    box-shadow: 0px 5px 10px 0px #ccc;
+    -moz-transition: -moz-box-shadow 0.5s;
+    -webkit-transition: -webkit-box-shadow 0.5s;
+    -o-transition:  -o-box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+}
+.well:hover {
+    -webkit-box-shadow: 0px 5px 10px 0px #657DAF;
+    box-shadow: 0px 5px 10px 0px #657DAF;
+}
+
+#empty-results {
+	min-height: 400px;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 210px;
+    text-shadow: 10px -1px 10px rgba(0, 0, 0, 0.15);
+}
+
+#calc-button{
+	 margin-top: 10px;
+}
+
+.stats-container {
+    border-radius: 0px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 10px 0px #ccc;
+    box-shadow: 0px 5px 10px 0px #ccc;
+    text-align: center;
+    -moz-transition: -moz-box-shadow 0.5s;
+    -webkit-transition: -webkit-box-shadow 0.5s;
+    -o-transition:  -o-box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+}
+
+.stats-container:hover {
+    -webkit-box-shadow: 0px 5px 10px 0px #657DAF;
+    box-shadow: 0px 5px 10px 0px #657DAF;
+}
+
+.stats-container > .blue {
+    background-color: #418FDE;
+    color: white;
+    border-color: #ddd;
+}
+
+.stats-container > .green {
+    background-color: #48A23F;
+    color: white;
+    border-color: #ddd;
+}
+
+.stats-container > .pink {
+    background-color: #CE0058;
+    color: white;
+    border-color: #ddd;
+}
+
+.stats-container > .hibu-blue {
+    background-color: #418FDE;
+    color: white;
+    border-color: #ddd;
+}
+
+.stats-container > .hibu-green {
+    background-color: #48A23F;
+    color: white;
+    border-color: #ddd;
+}
+
+.stats-container > .hibu-red {
+    background-color: #CE0058;
+    color: white;
+    border-color: #ddd;
+}
+
+.stats-container > .header {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.stats-container > .content {
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 5px;
+}
+
+.stats-container > .footer {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.stats-container > .footer td {
+    text-align: center;
+    width: 50%;
+}
+
+#form1, #form2 {
+	margin-top: 25px;
+}
